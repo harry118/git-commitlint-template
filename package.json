@@ -1,0 +1,23 @@
+{
+  "name": "git-commitlint-template",
+  "version": "1.0.0",
+  "description": "git 工程提交规范模板",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/junxuangxw/git-commitlint-template.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/junxuangxw/git-commitlint-template/issues"
+  },
+  "homepage": "https://github.com/junxuangxw/git-commitlint-template#readme",
+  "devDependencies": {
+    "husky": "^7.0.4"
+  }
+}
