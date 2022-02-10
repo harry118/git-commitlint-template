@@ -12,7 +12,7 @@ module.exports = {
     { value: '⏪回滚', name: '回滚:    代码回退' }
   ],
   scopes: [
-    { name: '测试' },
+    { name: '测试1' },
     { name: '模块2' },
     { name: '模块3' },
     { name: '模块4' }
