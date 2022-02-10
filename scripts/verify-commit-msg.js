@@ -1,5 +1,5 @@
 const chalk = require("chalk")
-console.log("4444");
+console.log("44444");
 const msgPath = process.env.GIT_PARAMS || '.git/COMMIT_EDITMSG';
 console.log(msgPath);
 const msg = require("fs").readFileSync(msgPath, "utf-8").trim();
