@@ -1,0 +1,8 @@
+{
+  "src/**/*.{js,jsx,ts,tsx}": [
+    "npx prettier --write"
+  ],
+  "src/**/*.{css,less,scss}": [
+    "npx prettier --write"
+  ]
+}

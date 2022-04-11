@@ -1,0 +1,12 @@
+{
+  "eslint.run": "onType",
+  "eslint.options": {
+    "extensions": [".js", ".vue", ".jsx", ".tsx"]
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": false
+  },
+  "eslint.alwaysShowStatus": true,
+  "js/ts.implicitProjectConfig.target": "ESNext",
+  "editor.tabSize": 2
+}
