@@ -1,8 +1,8 @@
 {
   "src/**/*.{js,jsx,ts,tsx}": [
-    "npx prettier --write"
+    "pnpm run prettier"
   ],
   "src/**/*.{css,less,scss}": [
-    "npx prettier --write"
+    "pnpm run prettier"
   ]
 }
