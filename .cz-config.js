@@ -1,17 +1,17 @@
 "use strict";
 module.exports = {
   types: [
-    { value: "✨feat", name: "feat:    一个新的特性" },
-    { value: "🐛fix", name: "fix:    修复一个Bug" },
-    { value: "📝docs", name: "docs:    变更的只有文档" },
-    { value: "💄style", name: "style:    空格, 分号等格式修复" },
+    { value: "feat", name: "feat:    一个新的特性" },
+    { value: "fix", name: "fix:    修复一个Bug" },
+    { value: "docs", name: "docs:    变更的只有文档" },
+    { value: "style", name: "style:    空格, 分号等格式修复" },
     {
-      value: "♻️refactor",
+      value: "refactor",
       name: "refactor:    代码重构，注意和特性、修复区分开",
     },
-    { value: "⚡️perf", name: "perf:    提升性能" },
+    { value: "perf", name: "perf:    提升性能" },
     { value: "test", name: "test:    添加一个测试" },
-    { value: "⏪revert", name: "revert:    代码回退" },
+    { value: "revert", name: "revert:    代码回退" },
   ],
   scopes: [
     { name: "测试1" },
