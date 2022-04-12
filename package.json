@@ -7,8 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepare": "husky install",
     "prettier": "prettier --write",
-    "lint": "eslint",
-    "commit": "git-cz"
+    "lint": "eslint src/**/*",
+    "commit": "git add . && git-cz"
   },
   "config": {
     "commitizen": {
