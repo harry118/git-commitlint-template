@@ -1,7 +1,7 @@
 {
   "src/**/*.{js,jsx,ts,tsx}": [
-    "npx eslint --fix",
-    "npx prettier --write"
+    "eslint",
+    "prettier --ignore-unknown --write"
   ],
   "src/**/*.{css,less,scss}": [
     "npx prettier --write"
