@@ -31,10 +31,10 @@ module.exports = {
   // override the messages, defaults are as follows
   messages: {
     type: "选择一种你的提交类型:",
-    scope: "选择一个scope (可选):",
+    scope: "请输入修改范围(可选),例如:功能1:",
     // used if allowCustomScopes is true
     customScope: "Denote the SCOPE of this change:",
-    subject: "短说明:\n",
+    subject: "请简要描述提交:\n",
     body: '长说明，使用"|"换行(可选)：\n',
     breaking: "非兼容性说明 (可选):\n",
     footer: "关联关闭的issue，例如：#31, #34(可选):\n",
